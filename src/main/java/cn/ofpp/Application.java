@@ -22,11 +22,9 @@ public class Application {
      * <li>发消息</li>
      */
     public static void main(String[] args) {
-        // load and init
-        Bootstrap.init()
-
         // -----------------  以下为演示数据  ------------------------
 
+        Bootstrap.init();
         // new 一个 女友
         GirlFriend girlFriend = new GirlFriend("某女友",
                 "1", "南京市", "1999-08-08", "2011-04-16", "ol3S46MZzaMI871N6D-kMrxNlPAw");
